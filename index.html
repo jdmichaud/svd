@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SVD</title>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <script type="text/javascript">window.numeric = { eig: () => {} }</script>
+  <script src="https://unpkg.com/mathjs/dist/math.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jdmichaud/linalg/mathjs.shim.js"></script>
+  <script src="http://unpkg.com/@jdmichaud/observable@0.3.3/dist/index.js"></script>
+  <script src="https://unpkg.com/numericjs@1.2.6/numeric-1.2.6.js"></script>
+  <script src="utils.js"></script>
+  <script src="main.js"></script>
+  <style>
+    .cell {
+      width: 40px;
+    }
+    .wide-cell {
+      width: 40px;
+    }
+    .matrix {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="matrix A"></div>
+    [<div class="matrix U"></div>]
+    [<div class="matrix S"></div>]
+    [<div class="matrix V"></div>]
+  </div>
+</body>
+</html>
